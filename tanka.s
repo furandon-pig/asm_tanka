@@ -64,6 +64,6 @@ my_putchar:
         movl	$0x1, 0x4(%esp)
         mov	$0x4, %ax
         int	$0x80
-       	add	$0x10, %esp
+	add	$0x10, %esp
 	ret
 
